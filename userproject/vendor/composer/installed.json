@@ -1,0 +1,54 @@
+{
+    "packages": [
+        {
+            "name": "hackzilla/password-generator",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hackzilla/password-generator.git",
+                "reference": "5b0a54b7e299c3dcecf619ed7b04fb0afb87e096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hackzilla/password-generator/zipball/5b0a54b7e299c3dcecf619ed7b04fb0afb87e096",
+                "reference": "5b0a54b7e299c3dcecf619ed7b04fb0afb87e096",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2022-10-22T16:56:18+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Hackzilla\\PasswordGenerator\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Platt",
+                    "email": "github@ofdan.co.uk",
+                    "homepage": "https://www.hackzilla.org"
+                }
+            ],
+            "description": "Password Generator Library",
+            "support": {
+                "issues": "https://github.com/hackzilla/password-generator/issues",
+                "source": "https://github.com/hackzilla/password-generator/tree/master"
+            },
+            "install-path": "../hackzilla/password-generator"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

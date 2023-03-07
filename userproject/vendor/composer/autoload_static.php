@@ -11,12 +11,20 @@ class ComposerStaticInit4be59bd4593bdf3905aa1bbc0408f7ec
         array (
             'Mbacher\\Userproject\\' => 20,
         ),
+        'H' => 
+        array (
+            'Hackzilla\\PasswordGenerator\\' => 28,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Mbacher\\Userproject\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Hackzilla\\PasswordGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hackzilla/password-generator',
         ),
     );
 

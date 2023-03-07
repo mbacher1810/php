@@ -15,5 +15,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "hackzilla/password-generator": "dev-master"
+    }
 }
