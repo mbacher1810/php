@@ -1,0 +1,26 @@
+{
+    "name": "mbacher/street",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mbacher\\Street\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Bacher",
+            "email": "mbacher@schueler.hakzell.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../vehicle"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mbacher/vehicle": "dev-main"
+    }
+}

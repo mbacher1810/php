@@ -1,0 +1,26 @@
+{
+    "name": "mbacher/umwandlung",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mbacher\\Umwandlung\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Bacher",
+            "email": "mbacher@schueler.hakzell.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../umwandler"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mbacher/umwandler": "dev-main"
+    }
+}

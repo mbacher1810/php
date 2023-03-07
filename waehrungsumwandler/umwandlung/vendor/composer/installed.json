@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "mbacher/umwandler",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../umwandler",
+                "reference": "bedb46aa89317499708421eca7fd4c89529e8abe"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Mbacher\\Umwandler\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bacher",
+                    "email": "mbacher@schueler.hakzell.at"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            },
+            "install-path": "../mbacher/umwandler"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

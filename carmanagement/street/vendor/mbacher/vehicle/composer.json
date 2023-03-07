@@ -1,0 +1,18 @@
+{
+    "name": "mbacher/vehicle",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mbacher\\Vehicle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Bacher",
+            "email": "mbacher@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

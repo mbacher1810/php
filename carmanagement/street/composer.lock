@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d2f5fbd74ca657a46d4882082d1f3ba5",
+    "packages": [
+        {
+            "name": "mbacher/vehicle",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../vehicle",
+                "reference": "dcb29d767ccf947b8aeb75aaf64b098c24c752aa"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mbacher\\Vehicle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bacher",
+                    "email": "mbacher@schueler.hakzell.at"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
