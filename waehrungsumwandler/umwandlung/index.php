@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-use Mbacher\Waehrungsumwandler\Models\Converter;
+use Mbacher\Umwandler\Models\Converter;
 
 $currency = "USD";
 $value = 120;

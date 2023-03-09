@@ -1,5 +1,5 @@
 <?php
-namespace Mbacher\Waehrungsumwandler\Interfaces;
+namespace Mbacher\Umwandler\Interfaces;
 
 interface IConverter
 {
