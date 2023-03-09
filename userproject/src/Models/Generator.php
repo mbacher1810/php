@@ -1,5 +1,5 @@
 <?php
-namespace\Mbacher\Userproject\Models;
+namespace Mbacher\Userproject\Models;
 
 use Hackzilla\PasswordGenerator\Generator\ComputerPasswordGenerator;
 

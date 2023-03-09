@@ -1,5 +1,5 @@
 <?php
-namespace\Mbacher\Userproject\Interfaces;
+namespace Mbacher\Userproject\Interfaces;
 
 interface IPassword
 {
