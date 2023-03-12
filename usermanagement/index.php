@@ -1,10 +1,10 @@
 <?php
 require 'vendor/autoload.php';
 
-$user = new \Mbacher\Usermanagement\User();
+$user = new Mbacher\Usermanagement\User();
 $user   -> setFirstname('Hans')
-        -> setSurname('Maier')
-        -> setUsername('hmaier');
+    -> setSurname('Maier')
+    -> setUsername('hmaier');
 
 $neu = $user->get();
 

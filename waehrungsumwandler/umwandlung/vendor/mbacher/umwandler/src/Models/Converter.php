@@ -1,13 +1,12 @@
 <?php
-namespace Mbacher\Waehrungsumwandler\Models;
+namespace Mbacher\Umwandler\Models;
 
-use Mbacher\Waehrungsumwandler\Interfaces\IConverter;
+use Mbacher\Umwandler\Interfaces\IConverter;
 
 class Converter implements IConverter
 {
-    public function convertCurrency($value, $currency):float
+    public function convertCurrency($value, $currency, $rate):float
     {
-        $rate = 0.95;
         echo $currency;
         return $value * $rate;
     }

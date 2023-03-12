@@ -5,11 +5,9 @@ use Mbacher\Umwandler\Interfaces\IConverter;
 
 class Converter implements IConverter
 {
-    public function convertCurrency($value, $currency):float
+    public function convertCurrency($value, $currency, $rate):float
     {
-        echo "EUR " . $value . "<br/>";
-        $rate = 0.95;
-        echo $currency . " ";
+        echo $currency;
         return $value * $rate;
     }
 }

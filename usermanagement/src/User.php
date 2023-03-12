@@ -1,6 +1,5 @@
 <?php
-use Mbacher\Usermanagement\User;
-require 'vendor/autoload.php';
+namespace Mbacher\Usermanagement\User;
 
 $michael = new Person();
 echo $michael   ->setFirstname('Michael')

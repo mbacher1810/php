@@ -1,7 +1,7 @@
 <?php
-namespace Mbacher\Waehrungsumwandler\Interfaces;
+namespace Mbacher\Umwandler\Interfaces;
 
 interface IConverter
 {
-    public function convertCurrency($value, $currency);
+    public function convertCurrency($value, $currency, $rate);
 }
